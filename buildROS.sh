@@ -1,6 +1,6 @@
 #Project: SyncDrive
 #author: dinglx@uincore.net
-#Date: Mar 12 2018
+#Create Date: Mar 12 2018
 
 #Ubuntu 16.04 LTS (64bit) xenial
 #http://wiki.ros.org/kinetic/Installation/Ubuntu
