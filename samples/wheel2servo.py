@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 #export |grep ROS
 #ROSLISP_PACKAGE_DIRECTORIES="/home/ding/catkin_ws/devel/share/common-lisp"

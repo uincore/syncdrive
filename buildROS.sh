@@ -39,4 +39,30 @@ catkin_make
 
 #roslaunch ps3joy ps3.launch
 
+#http://wiki.ros.org/usb_cam
+#USB Camery (Logitech C922 Pro Stream Webcam)
+cd ~/catkin_ws/src
+git clone https://github.com/ros-drivers/usb_cam.git
+git clone https://github.com/ros-perception/image_common.git
+git clone https://github.com/ros-perception/image_pipeline.git
+git clone https://github.com/ros-perception/vision_opencv.git
+git clone https://github.com/ros/geometry.git
+cd ~/catkin_ws
+catkin_make
+#vim src/usb_cam/launch/usb_cam-test.launch #Cameray resolution ratio:1280x720
+#roslaunch usb_cam usb_cam-test.launch
+#rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw camera:=/usb_cam
+
+#VESC(Vehicle Electric Speed Control)
+#https://github.com/vedderb/bldc
+cd ~/catkin_ws/src
+git clone https://github.com/wjwwood/serial.git
+git clone https://github.com/ros-drivers/ackermann_msgs.git
+git clone https://github.com/uincore/vesc.git
+cd ~/catkin_ws
+catkin_make
+#Serial Device: /dev/ttUSBx or /dev/ttyACMx
+#roslaunch vesc_driver vesc_driver_node.launch
+
+
 
