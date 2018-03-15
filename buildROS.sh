@@ -47,6 +47,7 @@ git clone https://github.com/ros-perception/image_common.git
 git clone https://github.com/ros-perception/image_pipeline.git
 git clone https://github.com/ros-perception/vision_opencv.git
 git clone https://github.com/ros/geometry.git
+git clone https://github.com/ros/geometry2.git
 cd ~/catkin_ws
 catkin_make
 #vim src/usb_cam/launch/usb_cam-test.launch #Cameray resolution ratio:1280x720
