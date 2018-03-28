@@ -42,7 +42,8 @@ catkin_make
 #http://wiki.ros.org/usb_cam
 #USB Camery (Logitech C922 Pro Stream Webcam)
 cd ~/catkin_ws/src
-git clone https://github.com/ros-drivers/usb_cam.git
+#git clone https://github.com/ros-drivers/usb_cam.git
+git clone https://github.com/uincore/usb_cam.git
 git clone https://github.com/ros-perception/image_common.git
 git clone https://github.com/ros-perception/image_pipeline.git
 git clone https://github.com/ros-perception/vision_opencv.git
